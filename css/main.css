@@ -1,0 +1,39 @@
+body {
+    margin: 0;
+    font-family: "Verdana Pro Light", sans-serif;
+}
+
+h1 {
+    margin: 0;
+}
+
+.full-width-background {
+    min-height: 10em;
+}
+
+.full-width-background:nth-child(odd) {
+    background-color: #e8e6e6;
+}
+
+.content {
+    width: 70%;
+    margin: 0 auto;
+    padding: .5em 0;
+}
+
+.tilted-with-shadow {
+    -webkit-box-shadow: 10px 10px 10px 10px #B3B3B3;
+    box-shadow: 10px 10px 10px 10px #B3B3B3;
+    width: 25%;
+    -moz-transform: rotate(10deg);
+    -webkit-transform: rotate(10deg);
+    -o-transform: rotate(10deg);
+    -ms-transform: rotate(10deg);
+    transform: rotate(10deg);
+    float: right;
+    margin-right: 3em;
+}
+
+.half-width {
+    width: 50%;
+}

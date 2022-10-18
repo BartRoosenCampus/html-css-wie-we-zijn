@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+<div class="full-width-background">
+    <div class="content">
+        <h1>Werken in lagen</h1>
+        <img src="img/full-width-background.png"/>
+        <p>
+            Bij een achtergrond die de volledige breedte van het scherm moet innemen werk je best in lagen. De onderste
+            laag is de achtergrond. In dit geval zijn het divs die alternerend een andere achtergrond kleur krijgen.
+        </p>
+        <img src="img/content.png"/>
+        <p>
+            De inhoud (content) die getoond moet worden zet je dan in een 2de laag die bovenop de eerste komt
+            (child div) en geef je een breedte die smaller is dan het scherm en gecentreerd staat.
+        </p>
+    </div>
+</div>
+<div class="full-width-background">
+    <div class="content">
+        <img class="tilted-with-shadow" src="img/foto.png"/>
+        <h1>Overflow = zichtbaar</h1>
+        <p class="half-width">
+            Wanneer je nu in deze div (class=content) een foto plaatst die geroteerd staat en schaduw heeft zal die de
+            grenzen van de div waarin ie staat overschrijden.
+        </p>
+    </div>
+</div>
+<div class="full-width-background">
+    <div class="content">
+        <h1>CSS code genereren</h1>
+        <img src="img/tilted-with-shadow.png"/>
+        <p>
+            Deze code heb ik voor het kantelen en voor de schaduw laten genereren op
+            <a href="http://css3generator.com/" target="_blank">css3generator.com</a>.
+            De code die gegenereerd wordt houdt rekening met de meest gebruikte browsers.
+        </p>
+    </div>
+</div>
+</body>
+</html>
